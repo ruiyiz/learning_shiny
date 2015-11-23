@@ -1,0 +1,28 @@
+---
+title: "DiagrammeR Test"
+author: "Ruiyi Zhang"
+date: "November 23, 2015"
+output: html_document
+---
+
+This is an **R Markdown** document containing some **DiagrammeR** graphs.
+
+Here is some **Graphviz**:
+
+```{r, echo=FALSE}
+DiagrammeR::grViz("
+digraph rmarkdown {
+A -> B
+}
+", height = 200)
+```
+
+Here is some **mermaid**:
+
+```{r, echo=FALSE}
+DiagrammeR::mermaid("
+graph LR
+A-->B
+", height = 200)
+```
+

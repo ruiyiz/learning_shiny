@@ -56,4 +56,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Other files
 .Rproj.user
+*.html
+*.pdf
+*.docx
